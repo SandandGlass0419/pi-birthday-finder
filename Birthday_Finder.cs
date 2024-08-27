@@ -65,7 +65,7 @@ namespace Birthday_Finder
                 Console.WriteLine($"{BirthDay4.ElementAt(i).Key}: {BirthDay4.ElementAt(i).Value}");
             }
 
-            Console.ReadKey();
+            Console.ReadKey(true);
         }
 
         static Dictionary<string,int> Make_Dic_3()
